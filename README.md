@@ -20,7 +20,7 @@ Running domain mode
 
 Run another host controller
 
-./bin/domain.sh --host-config=host-slave.xml -Djboss.socket.binding.port-offset=100 -Djboss.domain.master.address=127.0.0.1 -Djboss.management.native.port=10099
+./bin/domain.sh --host-config=host-slave.xml -Djboss.socket.binding.port-offset=100 -Djboss.domain.master.address=127.0.0.1 -Djboss.management.native.port=10099 -Djboss.management.http.port=10090 -Djboss.management.https.port=10443
 
 
 - Show Directory structure
